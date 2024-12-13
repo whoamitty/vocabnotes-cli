@@ -21,4 +21,4 @@ update_translation() suffit
     def retrieve_word_info(self, word, file_path):
     def word_source_and_target_exists(self, word, file_path):
 
-
+- [ ] faire un global .gitignore qui exclus les dossiers __pycache et ...

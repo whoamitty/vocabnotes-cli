@@ -24,8 +24,3 @@ vocabnotes-cli is a command-line tool that helps you build and maintain your per
 ```
 $> trans -enfr word translation1 translation2
 ```
-
-# Maby lateView word statistics
-```
-$> trans -stats word
-```

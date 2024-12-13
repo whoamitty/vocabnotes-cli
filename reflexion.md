@@ -22,3 +22,12 @@ update_translation() suffit
     def word_source_and_target_exists(self, word, file_path):
 
 - [ ] faire un global .gitignore qui exclus les dossiers __pycache et ...
+
+
+# 2 13-12-2024 vendredi
+J'ai ajouté un README.md à vocabnotes-cli  
+
+# Maby later View word statistics
+```
+$> trans -stats word
+```

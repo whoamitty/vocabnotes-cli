@@ -3,6 +3,7 @@ import click
 from database import WordDatabase
 from translation import TranslationManager
 
+
 @click.command()
 @click.argument('direction')
 @click.argument('word')

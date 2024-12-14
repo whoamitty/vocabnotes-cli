@@ -1,8 +1,6 @@
 from pathlib import Path
-#from pandas.core.arrays import boolean
 from typing import Optional
 from dataclasses import dataclass
-
 
 @dataclass
 class WordInfo:
@@ -10,6 +8,7 @@ class WordInfo:
     exists: bool = False
     line_number: Optional[int] = None
     line_content: Optional[list] = None
+
 
 class TranslationManager:
     def __init__(self, word_db):

@@ -1,8 +1,15 @@
 from pathlib import Path
 import pandas as pd
+from dotenv import load_dotenv
+
+
+PATH_TO_DATABASE_FOLDER=None
+load_dotenv()  # take environment variables from .env.
+
+
 
 class WordDatabase:
-    def __init__(self, base_dir=None):
+    def __init__(self, base_dir=PATH_TO_DATABASE_FOLDER):
         self.base_dir = Path(base_dir) if base_dir else Path(__file__).parent.parent
         self.ensure_directories()
 
